@@ -1,0 +1,10 @@
+Bootstrap: docker
+From: pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
+
+
+%post
+    pip install tbb h5py tensorboardX pandas nflows pytorch_fid prdc
+
+%runscript
+    cd caloman
+    bash sample-fast.sh

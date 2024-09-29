@@ -1,0 +1,10 @@
+Please run our model with
+singularity run --nv caloman.sif
+
+There are two parameters you may want to change - dataset and batch size. These are configurable in the script ./caloman/sample-fast.sh
+The scipt is what is executed by default when running the sif, and it consists of a single line
+python main-sample-fast.py --load-dir ./sub/photons --batch-size 100
+
+Simply change ./sub/photons to ./sub/pions, and 100 to 1 or any other value as desired.
+
+The results of running the sif, specifically a file 'generated_samples.hdf5', will be saved in the directories caloman/sub/photons or caloman/sub/pions as appropriate. These will be overwritten if the run command is executed again, so please change the file name after generating samples if you need to rerun.
