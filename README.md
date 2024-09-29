@@ -4,10 +4,10 @@
 
 # CaloMan - Density estimation on learned manifolds for calorimeter simulation
 
-This is the codebase accompanying the work "CaloMan: Fast generation of calorimeter showers with density estimation on learned manifolds", which was submitted to the ["Fast Calorimeter Simulation Challenge 2022"](https://calochallenge.github.io/homepage/). It builds on a fork of [the Two-Step Zoo codebase](https://github.com/layer6ai-labs/two_step_zoo) from the paper ["Diagnosing and Fixing Manifold Overfitting in Deep Generative Models"](https://arxiv.org/abs/2204.07172).
+This is the codebase accompanying the work ["CaloMan: Fast generation of calorimeter showers with density estimation on learned manifolds"](https://arxiv.org/abs/2211.15380), which was submitted to the ["Fast Calorimeter Simulation Challenge 2022"](https://calochallenge.github.io/homepage/). It builds on a fork of [the Two-Step Zoo codebase](https://github.com/layer6ai-labs/two_step_zoo) from the paper ["Diagnosing and Fixing Manifold Overfitting in Deep Generative Models"](https://arxiv.org/abs/2204.07172).
 Here we discuss how to run the experiments in the paper and give a general overview of the codebase.
 
-Before running on calorimeter data you must download the datasets from the links provided at ["calochallenge.github.io/homepage"](https://calochallenge.github.io/homepage/), and place them in the `data` folder.
+Before running on calorimeter data you must download the datasets from the links provided at [calochallenge.github.io/homepage](https://calochallenge.github.io/homepage/), and place them in the `data` folder.
 
 ## Python Environment Setup
 
